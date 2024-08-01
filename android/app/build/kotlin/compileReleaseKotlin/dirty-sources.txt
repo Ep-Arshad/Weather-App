@@ -1,0 +1,1 @@
+/home/lenovo/Workspace/Projects/weather_app/android/app/src/main/kotlin/com/example/wheather_app/MainActivity.kt

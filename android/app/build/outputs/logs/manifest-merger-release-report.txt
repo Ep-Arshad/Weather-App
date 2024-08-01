@@ -1,0 +1,321 @@
+-- Merging decision tree log ---
+application
+INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:6:5-37:19
+MERGED from [:geolocator_android] /home/lenovo/.pub-cache/hosted/pub.dev/geolocator_android-4.6.0/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /home/lenovo/.pub-cache/hosted/pub.dev/geolocator_android-4.6.0/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/lenovo/.gradle/caches/transforms-3/b607c8dd3fd1a7dd9bba61b0b28fd053/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/lenovo/.gradle/caches/transforms-3/b607c8dd3fd1a7dd9bba61b0b28fd053/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/lenovo/.gradle/caches/transforms-3/3e9d049d9f81869c4d021cf488ea46b3/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/lenovo/.gradle/caches/transforms-3/3e9d049d9f81869c4d021cf488ea46b3/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/lenovo/.gradle/caches/transforms-3/dd1e2d7db26391376649b36d4674825f/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/lenovo/.gradle/caches/transforms-3/dd1e2d7db26391376649b36d4674825f/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/lenovo/.gradle/caches/transforms-3/345d3afbdc6a35a66963043d17e5f332/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/lenovo/.gradle/caches/transforms-3/345d3afbdc6a35a66963043d17e5f332/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/dc97706a9f9d40d9b8fb4cb8ac123367/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/dc97706a9f9d40d9b8fb4cb8ac123367/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lenovo/.gradle/caches/transforms-3/fc8ab88fbbbfcabbadb6b0433d3fe707/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lenovo/.gradle/caches/transforms-3/fc8ab88fbbbfcabbadb6b0433d3fe707/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-3/f37fd2f90346b870e1c3457d0cee4192/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-3/f37fd2f90346b870e1c3457d0cee4192/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:7:9-37
+	android:icon
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:9:9-43
+	android:name
+		INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:8:9-42
+manifest
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+MERGED from [:geolocator_android] /home/lenovo/.pub-cache/hosted/pub.dev/geolocator_android-4.6.0/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/lenovo/.gradle/caches/transforms-3/b607c8dd3fd1a7dd9bba61b0b28fd053/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/65fc3481d2b5f624c3b0bccbad92e194/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/lenovo/.gradle/caches/transforms-3/3e9d049d9f81869c4d021cf488ea46b3/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/lenovo/.gradle/caches/transforms-3/dd1e2d7db26391376649b36d4674825f/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/lenovo/.gradle/caches/transforms-3/345d3afbdc6a35a66963043d17e5f332/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/lenovo/.gradle/caches/transforms-3/938661107c504b86a304548ed51e029e/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/lenovo/.gradle/caches/transforms-3/73c34ed483d36d848ce254ea613515fc/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/lenovo/.gradle/caches/transforms-3/83afe3cde47a6737652d988f6e4c354c/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/lenovo/.gradle/caches/transforms-3/a526e7a9b7a1b275f7e2ddb1207b894e/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/dc97706a9f9d40d9b8fb4cb8ac123367/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.customview:customview:1.0.0] /home/lenovo/.gradle/caches/transforms-3/3d3ad025f6510afbb754a8758d36115c/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/lenovo/.gradle/caches/transforms-3/2ef39911802003f4ac8f86c0485496cb/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/lenovo/.gradle/caches/transforms-3/87473c55f3c68a54671e6eae092b0f6c/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/lenovo/.gradle/caches/transforms-3/c839d35b5ed70a59bd4d03d86967fa6c/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/lenovo/.gradle/caches/transforms-3/4bee833358f1bab8ffe6fa05c570d7f1/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/lenovo/.gradle/caches/transforms-3/6f6e9275b52c7883490e70386f571bbe/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/lenovo/.gradle/caches/transforms-3/1e20743e41032e27cd80e5772066231d/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/lenovo/.gradle/caches/transforms-3/db3f901f466427b0a30a5b1d8aa37c21/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lenovo/.gradle/caches/transforms-3/fc8ab88fbbbfcabbadb6b0433d3fe707/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-3/f37fd2f90346b870e1c3457d0cee4192/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/lenovo/.gradle/caches/transforms-3/c52364fee2001ba065addb4316b5bb12/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/lenovo/.gradle/caches/transforms-3/d0d9495beea3df8c248b4b5538341ac2/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+	package
+		INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:1:1-49:12
+		INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:2:1-63
+	android:name
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:2:18-60
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:3:1-75
+	android:name
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:3:18-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:4:1-77
+	android:name
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:4:18-74
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:5:1-81
+	android:name
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:5:18-78
+queries
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:43:5-48:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:44:9-47:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:45:13-72
+	android:name
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:45:21-70
+data
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:46:13-50
+	android:mimeType
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:46:19-48
+uses-sdk
+INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:geolocator_android] /home/lenovo/.pub-cache/hosted/pub.dev/geolocator_android-4.6.0/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /home/lenovo/.pub-cache/hosted/pub.dev/geolocator_android-4.6.0/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/lenovo/.gradle/caches/transforms-3/b607c8dd3fd1a7dd9bba61b0b28fd053/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/lenovo/.gradle/caches/transforms-3/b607c8dd3fd1a7dd9bba61b0b28fd053/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/65fc3481d2b5f624c3b0bccbad92e194/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/65fc3481d2b5f624c3b0bccbad92e194/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/lenovo/.gradle/caches/transforms-3/3e9d049d9f81869c4d021cf488ea46b3/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/lenovo/.gradle/caches/transforms-3/3e9d049d9f81869c4d021cf488ea46b3/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/lenovo/.gradle/caches/transforms-3/dd1e2d7db26391376649b36d4674825f/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/lenovo/.gradle/caches/transforms-3/dd1e2d7db26391376649b36d4674825f/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/lenovo/.gradle/caches/transforms-3/345d3afbdc6a35a66963043d17e5f332/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/lenovo/.gradle/caches/transforms-3/345d3afbdc6a35a66963043d17e5f332/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /home/lenovo/.gradle/caches/transforms-3/938661107c504b86a304548ed51e029e/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/lenovo/.gradle/caches/transforms-3/938661107c504b86a304548ed51e029e/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/lenovo/.gradle/caches/transforms-3/73c34ed483d36d848ce254ea613515fc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/lenovo/.gradle/caches/transforms-3/73c34ed483d36d848ce254ea613515fc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/lenovo/.gradle/caches/transforms-3/83afe3cde47a6737652d988f6e4c354c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/lenovo/.gradle/caches/transforms-3/83afe3cde47a6737652d988f6e4c354c/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/lenovo/.gradle/caches/transforms-3/a526e7a9b7a1b275f7e2ddb1207b894e/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/lenovo/.gradle/caches/transforms-3/a526e7a9b7a1b275f7e2ddb1207b894e/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/dc97706a9f9d40d9b8fb4cb8ac123367/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/dc97706a9f9d40d9b8fb4cb8ac123367/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/lenovo/.gradle/caches/transforms-3/3d3ad025f6510afbb754a8758d36115c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/lenovo/.gradle/caches/transforms-3/3d3ad025f6510afbb754a8758d36115c/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/lenovo/.gradle/caches/transforms-3/2ef39911802003f4ac8f86c0485496cb/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/lenovo/.gradle/caches/transforms-3/2ef39911802003f4ac8f86c0485496cb/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/lenovo/.gradle/caches/transforms-3/87473c55f3c68a54671e6eae092b0f6c/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/lenovo/.gradle/caches/transforms-3/87473c55f3c68a54671e6eae092b0f6c/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/lenovo/.gradle/caches/transforms-3/c839d35b5ed70a59bd4d03d86967fa6c/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/lenovo/.gradle/caches/transforms-3/c839d35b5ed70a59bd4d03d86967fa6c/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/lenovo/.gradle/caches/transforms-3/4bee833358f1bab8ffe6fa05c570d7f1/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/lenovo/.gradle/caches/transforms-3/4bee833358f1bab8ffe6fa05c570d7f1/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/lenovo/.gradle/caches/transforms-3/6f6e9275b52c7883490e70386f571bbe/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/lenovo/.gradle/caches/transforms-3/6f6e9275b52c7883490e70386f571bbe/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/lenovo/.gradle/caches/transforms-3/1e20743e41032e27cd80e5772066231d/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/lenovo/.gradle/caches/transforms-3/1e20743e41032e27cd80e5772066231d/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/lenovo/.gradle/caches/transforms-3/db3f901f466427b0a30a5b1d8aa37c21/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/lenovo/.gradle/caches/transforms-3/db3f901f466427b0a30a5b1d8aa37c21/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lenovo/.gradle/caches/transforms-3/fc8ab88fbbbfcabbadb6b0433d3fe707/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/lenovo/.gradle/caches/transforms-3/fc8ab88fbbbfcabbadb6b0433d3fe707/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-3/f37fd2f90346b870e1c3457d0cee4192/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-3/f37fd2f90346b870e1c3457d0cee4192/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/lenovo/.gradle/caches/transforms-3/c52364fee2001ba065addb4316b5bb12/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/lenovo/.gradle/caches/transforms-3/c52364fee2001ba065addb4316b5bb12/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/lenovo/.gradle/caches/transforms-3/d0d9495beea3df8c248b4b5538341ac2/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/lenovo/.gradle/caches/transforms-3/d0d9495beea3df8c248b4b5538341ac2/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml
+activity#com.example.wheather_app.MainActivity
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:10:9-31:20
+	android:launchMode
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:13:13-43
+	android:hardwareAccelerated
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:17:13-47
+	android:windowSoftInputMode
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:18:13-55
+	android:exported
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:12:13-36
+	android:configChanges
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:16:13-163
+	android:theme
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:15:13-47
+	android:taskAffinity
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:11:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:23:13-26:17
+	android:resource
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:25:15-52
+	android:name
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:24:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:29:27-74
+meta-data#flutterEmbedding
+ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:34:9-36:33
+	android:value
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:36:13-30
+	android:name
+		ADDED from /home/lenovo/Workspace/Projects/weather_app/android/app/src/main/AndroidManifest.xml:35:13-44
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] /home/lenovo/.pub-cache/hosted/pub.dev/geolocator_android-4.6.0/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:56
+	android:enabled
+		ADDED from [:geolocator_android] /home/lenovo/.pub-cache/hosted/pub.dev/geolocator_android-4.6.0/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:geolocator_android] /home/lenovo/.pub-cache/hosted/pub.dev/geolocator_android-4.6.0/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] /home/lenovo/.pub-cache/hosted/pub.dev/geolocator_android-4.6.0/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [:geolocator_android] /home/lenovo/.pub-cache/hosted/pub.dev/geolocator_android-4.6.0/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/lenovo/.gradle/caches/transforms-3/3e9d049d9f81869c4d021cf488ea46b3/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/lenovo/.gradle/caches/transforms-3/3e9d049d9f81869c4d021cf488ea46b3/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/lenovo/.gradle/caches/transforms-3/3e9d049d9f81869c4d021cf488ea46b3/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/lenovo/.gradle/caches/transforms-3/3e9d049d9f81869c4d021cf488ea46b3/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/lenovo/.gradle/caches/transforms-3/345d3afbdc6a35a66963043d17e5f332/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/lenovo/.gradle/caches/transforms-3/345d3afbdc6a35a66963043d17e5f332/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /home/lenovo/.gradle/caches/transforms-3/345d3afbdc6a35a66963043d17e5f332/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/dc97706a9f9d40d9b8fb4cb8ac123367/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/dc97706a9f9d40d9b8fb4cb8ac123367/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/dc97706a9f9d40d9b8fb4cb8ac123367/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/dc97706a9f9d40d9b8fb4cb8ac123367/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/dc97706a9f9d40d9b8fb4cb8ac123367/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] /home/lenovo/.gradle/caches/transforms-3/dc97706a9f9d40d9b8fb4cb8ac123367/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+permission#com.example.wheather_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.wheather_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/lenovo/.gradle/caches/transforms-3/3a5a6a5782fe76c282999eacc93532e7/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-3/f37fd2f90346b870e1c3457d0cee4192/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/lenovo/.gradle/caches/transforms-3/f37fd2f90346b870e1c3457d0cee4192/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/lenovo/.gradle/caches/transforms-3/f94e7ebb2fbdc7404eeefd3811bcc7e6/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
